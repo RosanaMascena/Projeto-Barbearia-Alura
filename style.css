@@ -292,7 +292,7 @@ td, th {
 	}
 
 	.itens:before {
-		content: "🠞";
+		content: none;
 	}
 
 	.video {
