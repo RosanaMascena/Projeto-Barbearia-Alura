@@ -169,6 +169,7 @@ td, th {
 
 .principal p {
 	margin: 0 0 2em;
+	line-height: 1.5;
 }
 
 .principal strong {
@@ -204,6 +205,10 @@ td, th {
 	background: linear-gradient(#FEFEFE, #bf955ae8);
 }
 
+.beneficios h3 {
+	margin-bottom: 50px;
+}
+
 .conteudo-beneficios {
 	width: 640px;
 	margin: 0 auto;
@@ -216,17 +221,12 @@ td, th {
 }
 
 .itens {
-	line-height: 1.5;
+	margin-right: 10px;
+    line-height: 2;
 }
 
 .itens:first-child {
 	font-weight: bold;
-}
-
-.itens:before {
-    content: "➤";
-    margin-right: 10px;
-    line-height: 2;
 }
 
 .imagem-beneficios {
@@ -243,6 +243,7 @@ td, th {
 .video {
 	width: 560px;
 	margin: 4em auto;
+	margin-top: 80px;
 }
 
 @media screen and (max-width: 770px) {
@@ -291,6 +292,10 @@ td, th {
 
 	.beneficios {
 		padding: 1em 2em;
+	}
+
+	.beneficios h3 {
+		margin-bottom: 25px;
 	}
 
 	.imagem-beneficios, .lista-beneficios {
