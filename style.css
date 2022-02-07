@@ -224,7 +224,7 @@ td, th {
 }
 
 .itens:before {
-    content: "🠞";
+    content: "➤";
     margin-right: 10px;
     line-height: 2;
 }
