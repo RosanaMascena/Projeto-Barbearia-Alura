@@ -224,7 +224,9 @@ td, th {
 }
 
 .itens:before {
-	content: "🠞";
+    content: "🠞";
+    margin-right: 10px;
+    line-height: 2;
 }
 
 .imagem-beneficios {
@@ -291,17 +293,13 @@ td, th {
 		padding: 1em 2em;
 	}
 
-	.itens:before {
-		content: none;
+	.imagem-beneficios, .lista-beneficios {
+		width: 100%;
 	}
 
-	.video {
-		margin: 2em auto;
-		height: auto;
-	}
-
-	.video iframe {
-		height: 215px;
+	.lista-beneficios {
+		margin-bottom: 25px;
+		font-size: 20px;
 	}
 
 	.produtos {
